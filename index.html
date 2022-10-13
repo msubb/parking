@@ -3,66 +3,61 @@
 
 <head>
   <title>Testing</title>
-  
+
   <style type="text/css">
+    body {
+      margin: 20px;
+      font: 16px 'Open Sans', sans-serif;
+    }
 
-body {
-  margin: 20px;
-  font: 16px 'Open Sans', sans-serif;
-}
+    body .gist .gist-file {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
 
-body .gist .gist-file {
-  margin-bottom: 0;
-  border-radius: 0;
-}
+    body .gist .gist-data {
+      border-bottom: none;
+      border-radius: 0;
+      background-color: #000000;
+    }
 
-body .gist .gist-data {
-  border-bottom: none;
-  border-radius: 0;
-  background-color: #000000;
-}
+    body .gist .blob-wrapper {
+      border-radius: 0;
+    }
 
-body .gist .blob-wrapper {
-  border-radius: 0;
-}
+    body .gist .highlight {
+      background-color: #000000;
+      font-family: 'Droid Sans Mono', monospace;
+      font-size: 4em;
+    }
 
-body .gist .gist-data{
-hide-line-numbers= true;
+    body .gist .highlight td {
+      text-align: center;
+      padding: 1px 1px !important;
+      line-height: 1;
+      font-family: inherit;
+      font-size: inherit;
+      color: white;
+    }
 
-}
+    body .gist tr:first-child td {
+      padding-top: 1px !important;
+    }
 
-body .gist .highlight {
-  background-color: #000000;
-  font-family: 'Droid Sans Mono', monospace;
-  font-size: 4em;
-}
+    body .gist tr:last-child td {
+      padding-bottom: 1px !important;
+    }
 
-body .gist .highlight td {
-  text-align: center;
-  padding: 1px 1px !important;
-  line-height: 1;
-  font-family: inherit;
-  font-size: inherit;
-  color: white;
-}
+    body .gist .blob-num {
+      color: #000000 !important;
+      background-color: #000000;
+      pointer-events: none;
+    }
 
-body .gist tr:first-child td {
-  padding-top: 1px !important;
-}
+    body .gist .gist-meta {
+      display: none;
+    }
 
-body .gist tr:last-child td {
-  padding-bottom: 1px !important;
-}
-
-body .gist .blob-num {
-  color: #000000 !important;
-  background-color: #000000;
-  pointer-events: none;
-}
-
-body .gist .gist-meta {
-  display: none;
-}
     #Blue {
       background-color: rgb(31, 31, 202);
       height: auto;
@@ -97,18 +92,18 @@ body .gist .gist-meta {
       color: white;
       font-family: Arial, sans-serif;
     }
-	
-	.generated-text {
-   font-family:Arial, sans-serif;
-   font-size:4em;
-   line-height:20px;
-   color:#ffffff;
-    border-width:1px;
-    border-color:#ffffff;
-    border-style:inset;
-   background-color:#000000;
-   padding:20px;
-}
+
+    .generated-text {
+      font-family: Arial, sans-serif;
+      font-size: 4em;
+      line-height: 20px;
+      color: #ffffff;
+      border-width: 1px;
+      border-color: #ffffff;
+      border-style: inset;
+      background-color: #000000;
+      padding: 20px;
+    }
   </style>
 
 </head>
@@ -130,7 +125,7 @@ body .gist .gist-meta {
       </h1>
     </section>
 
-<script src="https://gist.github.com/msubb/004e205c856d5f934704333f5725d61e.js"></script>
+    <script src="https://gist.github.com/msubb/004e205c856d5f934704333f5725d61e.js"></script>
 
 
     <section id="Red">
@@ -138,8 +133,8 @@ body .gist .gist-meta {
         Open Guest Spaces:
       </h1>
     </section>
-	
-	<button class="generated-text" type="button" onClick="window.location.href=window.location.href">Update</button>
+
+    <button class="generated-text" type="button" onClick="window.location.href=window.location.href">Update</button>
 
 
     <div id="Footer">
